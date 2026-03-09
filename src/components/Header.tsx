@@ -98,19 +98,23 @@ export function Header() {
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
               <Play className="w-5 h-5 text-white fill-white" />
             </div>
-            <span className="font-display font-bold text-xl gradient-text">
-              Dracin Yanjie
-            </span>
-            <span className="font-display font-bold text-xl">
-    Top Up Game Termurah hanya di yanjiestore.com 
-    <a 
-      href="https://yanjiestore.com/" 
+            <div className="flex flex-col leading-tight">
+  <span className="font-display font-bold text-xl gradient-text">
+    Dracin Yanjie
+  </span>
+
+  <span className="text-sm">
+    Top Up Game Termurah hanya di yanjiestore.com{" "}
+    <a
+      href="https://yanjiestore.com/"
       target="_blank"
-      className="underline ml-1"
+      rel="noopener noreferrer"
+      className="underline hover:text-primary"
     >
       klik disini
     </a>
   </span>
+</div>
           </Link>
 
           {/* Search Button Only - No Nav Links */}
