@@ -101,6 +101,16 @@ export function Header() {
             <span className="font-display font-bold text-xl gradient-text">
               Dracin Yanjie
             </span>
+            <span className="font-display font-bold text-xl">
+    Top Up Game Termurah hanya di yanjiestore.com 
+    <a 
+      href="https://yanjiestore.com/" 
+      target="_blank"
+      className="underline ml-1"
+    >
+      klik disini
+    </a>
+  </span>
           </Link>
 
           {/* Search Button Only - No Nav Links */}
