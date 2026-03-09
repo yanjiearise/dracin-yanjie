@@ -106,13 +106,14 @@ export function Header() {
   <span className="text-sm">
     Top Up Game Termurah hanya di yanjiestore.com{" "}
     <a
-      href="https://yanjiestore.com/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="underline hover:text-primary"
-    >
-      klik disini
-    </a>
+  href="https://yanjiestore.com/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="underline hover:text-primary"
+  onClick={(e) => e.stopPropagation()}
+>
+  klik disini
+</a>
   </span>
 </div>
           </Link>
